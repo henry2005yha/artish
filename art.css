@@ -1,0 +1,86 @@
+body
+{
+    background-image: url('art.jpg');
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.B
+{
+    color: rgb(255, 255, 255);
+    font-size: 200% ;
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+
+.A
+{
+    width: 250pt;
+    height: 20pt;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    border-radius: 10pt;
+    border: none;
+    background-color: rgb(175, 175, 175);
+    padding: 10pt;
+    outline:none;
+    box-shadow:rgba(0, 0, 0, 0.5) 0 0 7pt ;
+    font-size: 90%;
+
+}
+
+.A:hover
+{
+    box-shadow:rgba(0, 0, 0, 0.7) 0 0 7pt ;
+    background-color: rgb(207, 207, 207);
+     
+}
+
+.C
+{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: fit-content;
+    padding: 10pt;
+    border-radius: 20pt;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    box-shadow:black 0 0 20pt ;
+}
+
+.ok
+{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.box
+{
+    width: 50pt;
+    height: 25pt;
+    border-radius:10pt ;
+    border: none;
+    background-color: rgb(175, 175, 175);
+    outline-color:rgba(0, 0, 0, 0.267);
+    box-shadow:rgba(0, 0, 0, 0.5) 0 0 7pt ;
+    font-size: 90%;
+    color: rgb(85, 85, 85);
+    
+
+}
+
+.box:hover
+{
+   
+    box-shadow:rgba(0, 0, 0, 0.7) 0 0 7pt ;
+    background-color: rgb(207, 207, 207);
+    width: 50.5pt;
+    height: 25.5pt;
+    
+}

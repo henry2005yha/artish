@@ -1,0 +1,192 @@
+body
+{
+    background-image: url("art.jpg") ;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.box
+{
+  width: 856px;
+  height:480px;
+  margin: auto;
+  position: relative;
+  size: 80%;
+  margin-top: 7%;
+}
+
+.A
+{
+   width: 285px; 
+   height: 240px;
+   position: absolute;
+   
+}
+
+.B
+{
+   width: 285px; 
+   height:240px ;
+   position: absolute;
+   left: 285px;
+   transform: translate(10px);
+}
+
+.C
+{
+   width: 285px; 
+   height: 240px;
+   position: absolute;
+   right: 0%;
+   align-content: bottom;
+   
+}
+
+.D
+{
+   width: 285px; 
+   height: 240px;
+   position: absolute;
+   bottom: 0%;
+   transform: translate(0%,-3px);
+   
+}
+
+.E
+{
+   width: 285px ;
+   height: 240px;
+   position: absolute;
+   bottom: 0%;
+   left: 285px;
+   transform: translate(-30px,-42px);
+   
+}
+
+.F
+{
+   width: 285px;
+   height: 240px;
+   position: absolute;
+   bottom: 0%;
+   right: 0%;
+   transform: translate(-33px,-12px);
+}
+
+.zero:hover
+{
+   width: 308px;
+   height: 301px;
+}
+.five:hover
+{
+   width:329px;
+   height:281px;
+}
+.one:hover
+{
+   width:294px;
+   height:252px;
+}
+.two:hover
+{
+   width:295px;
+   height:250px;
+}
+.three:hover
+{
+   width:314px;
+   height:272px;
+}
+.four:hover
+{
+   width:349px;
+   height:311px;
+}
+
+.T
+{
+   height: 30px;
+   width: 500px;
+   transform:rotate(-90deg);
+   font-size: 250%;
+   position: absolute;
+   top: 50%;
+   right: 70%;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   font-family: 'Century Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+}
+
+.S
+{
+   height: 300px;
+   width: 30px;
+   font-size: 250%;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top: 55%;
+   left: 86%;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   font-family: 'Century Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.solid
+{
+   height: 30px;
+   width: 600px;
+   background-color: rgba(230, 200, 157, 0.178);
+   transform:rotate(-90deg);
+   position: absolute;
+   top: 27%;
+   right: 66.5%;
+   position: fixed;
+}
+
+.solid2
+{
+   height: 30px;
+   width: 500px;
+   background-color: rgba(230, 200, 157, 0.178);
+   transform:rotate(-90deg);
+   position: absolute;
+   top: 62%;
+   left: 68.5%;
+}
+
+.about
+{
+   position: absolute;
+   right: 8%;
+   top: 3%;
+   color: rgb(199, 146, 116);
+   transform: translate(50%);
+}
+
+.tooltip
+{
+   position: absolute;
+   right: 8%;
+   top: 6%;
+   color: rgb(199, 146, 116);
+   transform: translate(50%);
+   background-color: rgb(41, 17, 9);
+   border-radius: 10px;
+   padding: 0.3%;
+   display: none;
+   opacity: 40%;
+}
+
+.box1:hover .tooltip
+{
+   display: block;
+}
+
+a{
+   text-decoration: none;
+   color: rgb(199, 146, 116);
+}

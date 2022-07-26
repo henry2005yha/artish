@@ -1,0 +1,57 @@
+body
+{
+    background-image: url("art.jpg") ;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+img
+{
+    height: 600px;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    box-shadow:rgba(3, 3, 3, 0.678) 15px 15px 20px ;
+}
+
+div
+{
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    font-size: 400%;
+    color: rgb(255, 255, 255);
+}
+
+.text
+{
+    top: 23%;
+    font-size: 150%;
+}
+
+a
+{
+    color: rgb(223, 183, 159);
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: rgb(199, 146, 116);
+}
+
+.text1
+{
+    top: 23%;
+    font-size: 150%;
+    left: 50%;
+}
+
+.peace
+{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    font-size: 400%;
+    color: rgb(255, 255, 255);
+}
